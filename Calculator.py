@@ -1,0 +1,14 @@
+a = int(input("Enter a Number: "))
+b = int(input("Enter a Number: "))
+ans_add = a + b
+ans_sub = a - b
+ans_mul = a * b
+ans_div = a / b
+ans_pow = a ** b
+ans_mod = a % b
+print (f"{a} + {b} = {ans_add}\r")
+print (f"{a} - {b} = {ans_sub}\r")
+print (f"{a} * {b} = {ans_mul}\r")
+print (f"{a} / {b} = {ans_div}\r")
+print (f"{a} ** {b} = {ans_pow}\r")
+print (f"{a} % {b} = {ans_mod}\r")
